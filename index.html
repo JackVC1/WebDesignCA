@@ -8,6 +8,8 @@
           rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
           crossorigin="anonymous">
     <link rel="stylesheet" href="./css/main.css">
+    <!-- Importing font I chose to use for webpage -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   </head>
   <body>
     <header #="top">
@@ -42,22 +44,32 @@
           <!-- Informational section - provide links to learn more (About Smart Guide) and Download Now -->
           <div class="container-fluid bg-light text-success py-5">
             <div class="container-md">
-            <div class="row vh-50 d-flex align-items-center">
-                <div class="col-md-6">
-                    <p class="text-uppercase fw-bold fs-6">Smart Guide</p>
-                    <h1 class="display-1 fw-bold fs-7 lh-1"> The app for all your educational needs </h1>
-                    <p class="fw-semibold fs-6">Here at Smart Guide, we understand how challenging education is and want to help.
-                        We provide a service which can help you organise your college life and improve the quality of your 
-                        assignments and assessments.
-                    </p>
+                <div class="row align-items-center mt-5">
+                    <div class="col-md-6">
+                        <p class="text-uppercase fw-bold fs-6" style="font-family: 'Roboto', sans-serif; line-height: 1.6; max-width: 75%;">Smart Guide</p>
+                        <h1 class="display-3 fw-bold lh-1" style="font-family: 'Roboto', sans-serif; font-size: 4rem;">
+                            Organise and Improve Your Educational Life!
+                        </h1>
+                        <p class="fw-semibold fs-6" style="font-family: 'Roboto', sans-serif; line-height: 1.6; max-width: 75%; margin: 30px 0 0 0;">
+                            Here at Smart Guide, we understand how challenging education is and want to help. We provide a service 
+                            that can help you organise your college life and improve the quality of your assignments and assessments.
+                        </p>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <img src="your-image-path.jpg" alt="Smart Guide App" class="img-fluid">
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <img src="" alt="" class="img-fluid">
+                <div class="row justify-content-left mt-4">
+                  <button type="button" class="btn btn-success" style="width: auto; padding: 8px 20px; margin-top: 20px; display: inline-block; margin-right: 10px;">
+                    Download Now
+                  </button>   
+                  <button type="button" class="btn btn-light" style="width: auto; padding: 8px 20px; margin-top: 20px; display: inline-block; border: 2px solid green">
+                    Learn More
+                  </button>                      
                 </div>
-                <button type="button" class="btn btn-success">Download Now</button>
             </div>
-         </div>
         </div>
+        
     </header>
     <!-- General text area -->
     <main id="#main">
@@ -74,13 +86,38 @@
     <div class="row my-5 py-5">
         <div class="col-md-4 col-sm-6 my-1">
             <div class="card" >
-                <img src="" class="card-img-top img-fluid bg-success" alt="...">
+                <img src="images/pexels-pixabay-256517.jpg" class="card-img-top img-fluid bg-success" alt="...">
                 <div class="card-body bg-success">
                   <h5 class="card-title text-light">Research</h5>
-                  <p class="card-text text-light">Built in research functions help students find what they need to know quickly - filter options can help
-                    keep all info relevant
+                  <p class="card-text text-light">Built in research functions help students find what they need to know quickly - use our filter
+                    options to find exactly what you need!
                   </p>
-                  <a href="#" class="btn btn-light">button</a>
+                  <a href="https://lotr.fandom.com/wiki/Gollum" class="btn btn-light">Research Options</a>
+                </div>
+              </div>
+            </div>
+        <div class="col-md-4 col-sm-6 my-1">
+            <div class="card" >
+                <img src="images/tasks-4026398_1280.jpg" class="card-img-top img-fluid bg-success" alt="...">
+                <div class="card-body bg-success">
+                  <h5 class="card-title text-light">Stay Organised</h5>
+                  <p class="card-text text-light">
+                    Smart Guides goal is to help students stay organised and achieve top grades -
+                     create to-do lists and never miss an assignment submission or deliverable!
+                  </p>
+                  <a href="#" class="btn btn-light">How It Works</a>
+                </div>
+              </div>
+            </div>
+        <div class="col-md-4 col-sm-6 my-1">
+            <div class="card" >
+                <img src="images/cloud-upload-a30f385a928e44e199a62210d578375a.jpg" class="card-img-top img-fluid bg-success" alt="...">
+                <div class="card-body bg-success">
+                  <h5 class="card-title text-light">Links to your College</h5>
+                  <p class="card-text text-light">
+                    Everything you make or find in Smart Guide can be easily and quickly linked to your college platforms such as Teams and Drive! 
+                  </p>
+                  <a href="#" class="btn btn-light">Learn More</a>
                 </div>
               </div>
             </div>
