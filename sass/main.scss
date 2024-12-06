@@ -1,13 +1,23 @@
 
 
-$background-colour: #FFFCF8;
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
 
-.bg-light-overwritten {
-    background-color: $background-colour;
-}
 
+$backdrop: #FFFCF8;
 $success: #FFBC73;
-
 $text-color: #000000;
+
+// .bg-light-overwritten {
+//     background-color: $tertiary;
+// }
+
+$custom-colors: (
+    "background": $backdrop,
+    "success": $success,
+    "text-color": $text-color
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
 
 @import "../node_modules/bootstrap/scss/bootstrap";
