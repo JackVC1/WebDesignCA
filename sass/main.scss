@@ -1,0 +1,13 @@
+
+
+$background-colour: #FFFCF8;
+
+.bg-light-overwritten {
+    background-color: $background-colour;
+}
+
+$success: #FFBC73;
+
+$text-color: #000000;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
