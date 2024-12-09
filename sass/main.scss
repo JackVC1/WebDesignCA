@@ -8,6 +8,7 @@ $backdrop: #e1fbff;
 $section: #b7f0f6;
 $success: #489efb;
 $text-color: #000000;
+$footer: #9a9c9a;
 
 // .bg-light-overwritten {
 //     background-color: $tertiary;
@@ -17,7 +18,8 @@ $custom-colors: (
     "background": $backdrop,
     "success": $success,
     "text-color": $text-color,
-    "section": $section
+    "section": $section,
+    "footer": $footer
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
