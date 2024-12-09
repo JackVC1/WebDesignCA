@@ -4,8 +4,9 @@
 @import "../node_modules/bootstrap/scss/variables";
 
 
-$backdrop: #FFFCF8;
-$success: #FFBC73;
+$backdrop: #e1fbff;
+$section: #b7f0f6;
+$success: #489efb;
 $text-color: #000000;
 
 // .bg-light-overwritten {
@@ -15,7 +16,8 @@ $text-color: #000000;
 $custom-colors: (
     "background": $backdrop,
     "success": $success,
-    "text-color": $text-color
+    "text-color": $text-color,
+    "section": $section
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
