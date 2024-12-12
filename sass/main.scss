@@ -10,6 +10,7 @@ $success: #489efb;
 $text-color: #000000;
 $big-paragraph: #0af9b9;
 $footer: #9a9c9a;
+$quotes: #57faa9;
 
 // .bg-light-overwritten {
 //     background-color: $tertiary;
@@ -21,7 +22,8 @@ $custom-colors: (
     "text-color": $text-color,
     "section": $section,
     "big-paragraph": $big-paragraph,
-    "footer": $footer
+    "footer": $footer,
+    "quotes": $quotes
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
