@@ -23,7 +23,7 @@
     <!-- Navbar -->
    <nav class="navbar navbar-expand-lg navbar-dark bg-success bg-gradient border-bottom border-1 py-3">
     <div class="container-xl">
-      <a class="navbar-brand" href="#">Smart Guide</a>
+      <a class="navbar-brand" href="index.html">Smart Guide</a>
       <button class="navbar-toggler" type="button"
       data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -73,7 +73,7 @@
             <!-- Card 1 -->
             <div class="col-md-4 col-sm-6 my-1">
               <div class="card">
-                <div class="card-body">
+                <div class="card-body bg-success">
                   <h5 class="card-title">Assignment Break Downs</h5>
                   <p class="card-text">Enter your brief into our app either by uploading or maunaul entry. Our app will 
                     take the most important parts of the brief and break it down and open a project page for your assignment
@@ -84,7 +84,7 @@
             <!-- Card 2 -->
             <div class="col-md-4 col-sm-6 my-1">
               <div class="card">
-                <div class="card-body">
+                <div class="card-body bg-success">
                   <h5 class="card-title">To-Do Lists</h5>
                   <p class="card-text">Once you have your project page, you can add items to-do list. 
                     Add all the tasks you need to complete for the assignment, set due dates to ensure you complete then in time and reminders if 
@@ -95,7 +95,7 @@
             <!-- Card 3 -->
             <div class="col-md-4 col-sm-6 my-1">
               <div class="card">
-                <div class="card-body">
+                <div class="card-body bg-success">
                   <h5 class="card-title">Track Your Progress</h5>
                   <p class="card-text">Our automatically updating progress bars keep you on track. We provide two progress bars
                   one for tracking your to-do list, updating as you tick tasks off the list. The second is a  due date countdown telling 
@@ -109,7 +109,7 @@
             <!-- Card 4 -->
             <div class="col-md-4 col-sm-6 my-1">
               <div class="card">
-                <div class="card-body">
+                <div class="card-body bg-success">
                   <h5 class="card-title">Research </h5>
                   <p class="card-text">Need help starting an assignment? Use our built in detailed search systems to help you find what you need. 
                     Search from a wide variety of articles, videos, books and websites and Smart Guide will offer suggestions and advice along the way.
@@ -120,7 +120,7 @@
             <!-- Card 5 -->
             <div class="col-md-4 col-sm-6 my-1">
               <div class="card">
-                <div class="card-body">
+                <div class="card-body bg-success">
                   <h5 class="card-title">Neurodivergent?</h5>
                   <p class="card-text">Stay organised by utilising our project pages where you can keep all tasks, dates and advice together 
                     and use our simple bookmark feature to save everything you need for each assignment together. Manage your time by adding due dates to tasks and submissions.
@@ -131,9 +131,12 @@
             <!-- Card 6 -->
             <div class="col-md-4 col-sm-6 my-1">
               <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Card 6</h5>
-                  <p class="card-text">This is some text for Card 6.</p>
+                <div class="card-body bg-special">
+                  <h5 class="card-title">Support UN Goal 4: Quality Education</h5>
+                  <p class="card-text">By using our services you help provide a service to millions worldwide who are struggling 
+                    to receive a proper quality education. Smart Guide hopes that one day, all can get the quality education we in Ireland get 
+                    and hope we can help deliver that.
+                  </p>
                 </div>
               </div>
             </div>
@@ -150,8 +153,8 @@
       <div class="container">
         <div class="row">
           <!-- List Section -->
-          <div class="col-md-6">
-            <ol class="list-group list-group-numbered" style="max-width: 90%; margin-left: auto; margin-right: auto;">
+          <div class="col-md-6 bg-list">
+            <ol class="list-group list-group-numbered" style="max-width: 90%; margin-left: auto; margin-right: auto; padding-top: 20px;">
               <li class="list-group-item d-flex justify-content-between align-items-start">
                 <div class="ms-2 me-auto">
                   <div class="fw-bold">Google</div>
@@ -187,9 +190,7 @@
       </div>
       
 
-      <!-- Reviews Section - Star Rating - some quotes stacked-->
-
-      <!-- Stacked Quotes -->
+      <!-- Reviews Section Stacked Quotes -->
 
       <div class="container text-center my-5">
         <h3 style="font-weight: bold; font-size: 2.5rem;">Smart Guide Experiences</h3>
@@ -248,10 +249,28 @@
           </div>
         </div>
       </div>
-  </main>
 
-    <!-- Newsletter Form -->
-    
+      <!-- Newsletter Form -->
+
+    <div class="container text-center my-5">
+      <h3 style="font-weight: bold; font-size: 2.5rem;">Stay Informed - Our Newsletter</h3>
+    </div>
+
+    <div class="container-lg justify-content-center" style="padding-bottom: 20px;">
+      <div class="row justify-content-center">
+        <form>
+          <div class="container justify-content-center">
+            <div class="mb-3" style="max-width: 500px;">
+              <label for="exampleInputEmail1" class="form-label justify-content-center">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">Sign up to hear first about new services and regular study advice</div>
+            </div>
+            <button type="submit" class="btn btn-success">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>  
+  </main>
 
     <!-- Footer -->
     <footer class="bg-footer text--text-color py-4">
